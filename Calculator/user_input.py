@@ -1,3 +1,6 @@
 def user_input():
-    a, op, b = float(input("Enter first number: ")), input("Enter the operation: "), float(input("Enter the second number: "))
+    # Get user input for the arithmetic operation
+    a =  float(input("Enter first number: "))
+    op =  input("Enter the operation: ")
+    b = float(input("Enter the second number: "))
     return a, op, b
