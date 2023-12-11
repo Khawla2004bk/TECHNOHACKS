@@ -3,7 +3,9 @@ def get_input():
     
     try:
         amount = float(input("Enter the amount to convert: "))
-    except ValueError: # If the amount is invalid
+    
+    # If the amount is invalid
+    except ValueError: 
         print("Invalid amount. Please enter a valid number.")
         return None    
     

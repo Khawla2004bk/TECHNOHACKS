@@ -13,5 +13,3 @@ def convert_currency(amount, source_cur, target_cur, exchange_rates):
 
     converted_amount = amount * (target_rate / source_rate)
     return converted_amount
-
-
