@@ -3,6 +3,7 @@ def main():
     while True:
         try:
             T = float(input("Enter the temperature to convert: "))
+            # Exit the loop if temperature input is valid
             break
         except ValueError:
             print("Invalid input. Please enter a valid temperature value: ")
